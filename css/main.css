@@ -4,7 +4,9 @@ body{
 
 main{
     border-left: 264px solid white;
-    padding: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 33px;
 }
 /*filter*/
 

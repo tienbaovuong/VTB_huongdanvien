@@ -1,9 +1,12 @@
 /* top bar */
-.top-bar{}
-
 .top-bar> .container-fluid{
     max-height: 63px;
 }
+
+.row>*{
+    padding-left: 0px;
+}
+
 .top-bar_logoSearchbox{
     display: flex;
     flex-flow: row nowrap;
@@ -11,10 +14,11 @@
 
     height: 63px;
     list-style: none;
+    padding-left: 0px;
 }
 
 .top-bar_logoSearchbox>li{
-    
+    margin-left: 10px;
 }
 
 .top-bar_logoSearchbox>li>input{
@@ -36,9 +40,10 @@
 
 .top-bar_logoSearchbox>li> .searchicon{
     position: absolute;
-    left: 215px;
+    left: 190px;
     top: 24px;
 }
+
 .top-bar_account{
     display: flex;
     flex-flow: row nowrap;
@@ -46,11 +51,26 @@
 
     height: 63px;
     list-style: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1756C8;
 }
 
-.top-bar_account>li{
-    
+.top-bar_account>li>.top-bar_avatar{
+    margin-right: 11px;
 }
+
+.top-bar_account>li>.dropdown{
+    margin-right: 24px;
+}
+
+.top-bar_account>li>.top-bar_faq{
+    margin-right: 13px;
+}
+
 
 /* navigation */
 .side-nav{
@@ -58,13 +78,15 @@
     width: 264px;
     position: absolute;
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1);
-    padding: 18px;
+    padding-top:  18px;
+    padding-left: 15px;
 }
 
 .side-nav_list{
     align-items: flex-start;
-
     list-style: none;
+
+    padding-left: 0px;
 }
 
 .side-nav_list>.highlightNav{
@@ -73,12 +95,57 @@
 
     padding: 12px;
     padding-left: 0px;
+    margin-bottom: 20px;
+    margin-left: -15px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #1756C8;
 }
 
-.side-nav_list>li{
+.side-nav_list>.baocao{
+    margin-bottom: 18px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #1C1C1C;
+}
+
+.side-nav_list>.ykien{
+    margin-bottom: 29px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    
+    color: #1C1C1C;
+}
+
+.side-nav_list>.common{
     margin-bottom: 28px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    
+    color: #666666;
 }
 
-.side-nav_list>li>img{}
-
-
+.side-nav_list>.highlightNav>img{
+    margin-right: 18px;
+    margin-left: 15px;
+}
+.side-nav_list>.common>img{
+    margin-right: 18px;
+}
+.side-nav_list>.baocao>img, .side-nav_list>.ykien>img{
+    margin-right: 13px;
+}
