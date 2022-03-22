@@ -1,0 +1,31 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    border-left: 264px solid white;
+    padding: 30px;
+}
+/*filter*/
+
+/*table*/
+#soluong{
+    width: 50px;
+}
+
+
+/*table bottom*/
+
+.content-table_currentpage{
+    border: 1px solid #1756C8;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    width: 36px;
+    height: 36px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

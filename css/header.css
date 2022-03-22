@@ -1,0 +1,84 @@
+/* top bar */
+.top-bar{}
+
+.top-bar> .container-fluid{
+    max-height: 63px;
+}
+.top-bar_logoSearchbox{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    height: 63px;
+    list-style: none;
+}
+
+.top-bar_logoSearchbox>li{
+    
+}
+
+.top-bar_logoSearchbox>li>input{
+    margin-left: 10px;
+    padding-left: 43px;
+
+    width: 299px;
+    height: 36px;
+    
+    background: #EAEEEF;
+    border-radius: 80px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #999999;
+}
+
+.top-bar_logoSearchbox>li> .searchicon{
+    position: absolute;
+    left: 215px;
+    top: 24px;
+}
+.top-bar_account{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    height: 63px;
+    list-style: none;
+}
+
+.top-bar_account>li{
+    
+}
+
+/* navigation */
+.side-nav{
+    left: 0;
+    width: 264px;
+    position: absolute;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+}
+
+.side-nav_list{
+    align-items: flex-start;
+
+    list-style: none;
+}
+
+.side-nav_list>.highlightNav{
+    background: #E1EBFD;
+    border-radius: 0px 50px 50px 0px;
+
+    padding: 12px;
+    padding-left: 0px;
+}
+
+.side-nav_list>li{
+    margin-bottom: 28px;
+}
+
+.side-nav_list>li>img{}
+
+
