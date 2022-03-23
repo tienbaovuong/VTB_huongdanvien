@@ -35,8 +35,8 @@ main{
 
 /*filter*/
 .content-filter{
-    margin-top: 28px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .content-filter_button{
     list-style: none;
@@ -219,6 +219,11 @@ main{
     border-left: 1px solid #E1E1E1;
     border-right: 1px solid #E1E1E1;
 }
+
+.table > :not(:first-child) {
+    border-top: 0;
+}
+
 .table_header{
     background: #F9F9F9;
     border-radius: 3px 3px 0px 0px;
@@ -235,6 +240,101 @@ main{
     padding-bottom: 21px;
 }
 
+.code{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+   
+    color: #1756C8;
+}
+.tour, .thoigian{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+    color: #1C1C1C;
+}
+
+.dieuhanh>p{
+    margin-bottom: 0px;
+
+    font-style: normal;
+    line-height: 18px;   
+    
+    color: #333333;
+}
+
+.dieuhanh>.dieuhanh1{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.dieuhanh>.dieuhanh2{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.timdan{
+    background: #008CC9;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+
+.chodan, .dangky{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.chodan>.chodan_text, .dangky>.dangky_text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    
+    text-align: center;
+    color: #008CC9;
+    padding-top: 12px;
+    padding-bottom: 11px;
+
+    background: #E6F4FA;
+    border-radius: 3px;
+    width: 125px;
+    margin-right: 5px;
+}
+
+.chodan>.chodan_plus, .dangky>.dangky_plus{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 11px;
+
+    background: #008CC9;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    width: 42px;
+}
 /*table bottom*/
 .content-table_pagenum{
     margin-top: 21px;
